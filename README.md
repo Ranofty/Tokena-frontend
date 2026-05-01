@@ -60,7 +60,7 @@ This repository contains the official frontend React application, built with Vit
 The frontend interfaces with the Tokena Factory contracts. If you wish to deploy your own version of the contracts to earn fees on your own launchpad, check out the [Tokena SDK documentation](https://www.npmjs.com/package/@tokena/sdk) for factory addresses and deployment instructions.
 
 ### Supported Chains
-The factory smart contract has been deployed and unified to `0x3bF3A8384998B600acca63bc04fa251D617De059` across all supported EVM chains. When a token reaches its bonding curve threshold, liquidity is automatically migrated and locked in the respective DEX router for each network:
+The factory smart contract has been deployed and unified to `0x3bF3A8384998B600acca63bc04fa251D617De059` across all supported EVM chains. When a token reaches its bonding curve threshold, the token creator (dev) must manually finalize the curve. Upon finalization, liquidity is migrated and locked in the respective DEX router for each network:
 
 | Chain | Key | Factory | Migration DEX Router |
 |---|---|---|---|
