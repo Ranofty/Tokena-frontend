@@ -113,7 +113,7 @@ import { Tokena, solana } from '@tokena/sdk';
 
 // EVM
 const tokena = new Tokena({ chainKey: 'bsc' });
-const state = await tokena.getTokenState('0x...');
+const state = await tokena.getTokenState('0x....');
 
 // Solana
 const result = await solana.buyTokens({
