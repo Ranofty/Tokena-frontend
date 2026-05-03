@@ -102,7 +102,7 @@ Tokens launch via the [Meteora DBC SDK](https://docs.meteora.ag/docs/dbc/overvie
 | Initial LP (virtual) | 5 SOL |
 | Migration Threshold | 25 SOL raised |
 | Trading Fee | 1% (0.2% Meteora, 0.4% creator, 0.4% platform) |
-| Migration | Auto-graduation to DAMM V2 (100% permanent burn LP) |
+| Migration | Auto-graduation to DAMM V2 (100% permanent burn🔥 LP) |
 
 ## 📦 Tokena SDK
 
