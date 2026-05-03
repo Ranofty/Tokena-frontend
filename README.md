@@ -117,8 +117,8 @@ const state = await tokena.getTokenState('0x...');
 
 // Solana
 const result = await solana.buyTokens({
-  poolAddress: '...',
-  mintAddress: '...',
+  poolAddress: '....',
+  mintAddress: '....',
   wallet, connection,
   solAmount: 0.5,
 });
